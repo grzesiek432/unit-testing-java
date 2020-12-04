@@ -1,4 +1,4 @@
-package pl.chojnacki.grzegorz.testing.testing;
+package pl.chojnacki.grzegorz.testing;
 
 import org.junit.jupiter.api.Test;
 import pl.chojnacki.grzegorz.testing.Meal;
