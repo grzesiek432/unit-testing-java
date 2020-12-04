@@ -1,6 +1,8 @@
 package pl.chojnacki.grzegorz.testing.testing;
 
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.chojnacki.grzegorz.testing.Meal;
 import pl.chojnacki.grzegorz.testing.Order;
@@ -13,6 +15,20 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class OrderTest {
+
+
+    private Order order;
+
+    @BeforeEach
+    void initializeOrder(){
+        order = new Order();
+    }
+
+    @AfterEach
+    void cleanUp()
+    {
+        order.cancel();
+    }
 
     @Test
     void testAssertArrayEquals() {
@@ -28,8 +44,6 @@ public class OrderTest {
     @Test
     void mealListShouldBeEmptyAfterCreationOfOrder()
     {
-        //given
-        Order order = new Order();
 
         //then
         assertThat(order.getMeals(),empty());
@@ -45,7 +59,7 @@ public class OrderTest {
         //given
         Meal meal = new Meal(15,"Burger");
         Meal meal2 = new Meal(5,"Sandwich");
-        Order order = new Order();
+
 
         //when
         order.addMealToOrder(meal);
@@ -63,7 +77,7 @@ public class OrderTest {
     {
         //given
         Meal meal = new Meal(15,"Pizza");
-        Order order = new Order();
+
 
         //when
         order.addMealToOrder(meal);
@@ -80,7 +94,7 @@ public class OrderTest {
         //given
         Meal meal1 = new Meal(15,"Burger");
         Meal meal2 = new Meal(5,"Sandwich");
-        Order order = new Order();
+
 
         //when
         order.addMealToOrder(meal1);
