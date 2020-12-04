@@ -20,7 +20,7 @@ class MealTest {
 
         //then
         assertEquals(28, discountedPrice);
-        assertThat(discountedPrice,equalTo(28))
+        assertThat(discountedPrice,equalTo(28));
 
     }
 
@@ -53,7 +53,7 @@ class MealTest {
     {
         //given
         Meal meal1 = new Meal(10,"Pizza");
-        Meal meal2 = new Meal(20,"Pizza");
+        Meal meal2 = new Meal(10,"Pizza");
 
         //then
         assertEquals(meal1,meal2,"Checking if two meals are equal");
