@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import pl.chojnacki.grzegorz.testing.Account;
 import pl.chojnacki.grzegorz.testing.Address;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -18,6 +20,8 @@ public class AccountTest {
 
         //then
         assertFalse(account.isActive(),"Check if new account is not active");
+        assertThat(account.isActive(),equalTo(false));
+        assertThat(account.isActive(),is(false));
     }
 
     @Test
@@ -32,6 +36,7 @@ public class AccountTest {
 
         //then
         assertTrue(account.isActive());
+        assertThat(account.isActive(),is(true));
 
     }
 
@@ -46,6 +51,7 @@ public class AccountTest {
 
         //then
         assertNull(address);
+        assertThat(address,nullValue());
     }
 
     @Test
@@ -61,6 +67,7 @@ public class AccountTest {
 
         //then
         assertNotNull(address1);
+        assertThat(address1,is(notNullValue()));
 
 
 
