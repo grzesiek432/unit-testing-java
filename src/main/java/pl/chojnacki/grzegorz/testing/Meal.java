@@ -1,3 +1,5 @@
+package pl.chojnacki.grzegorz.testing;
+
 public class Meal {
 
     private int price;

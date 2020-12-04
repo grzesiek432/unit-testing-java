@@ -1,4 +1,7 @@
+package pl.chojnacki.grzegorz.testing.testing;
+
 import org.junit.jupiter.api.Test;
+import pl.chojnacki.grzegorz.testing.Meal;
 
 import static org.junit.jupiter.api.Assertions.*;
 
