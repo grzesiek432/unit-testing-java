@@ -28,5 +28,7 @@ public class Cart {
         clearCart();
     }
 
-
+    public List<Order> getOrders() {
+        return orders;
+    }
 }
