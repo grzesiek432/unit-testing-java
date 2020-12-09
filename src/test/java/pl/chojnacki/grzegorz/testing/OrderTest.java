@@ -4,6 +4,7 @@ package pl.chojnacki.grzegorz.testing;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import pl.chojnacki.grzegorz.testing.Meal;
 import pl.chojnacki.grzegorz.testing.Order;
 
@@ -14,6 +15,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+
+@ExtendWith(BeforeAfterExtension.class)
 public class OrderTest {
 
 
@@ -21,12 +24,15 @@ public class OrderTest {
 
     @BeforeEach
     void initializeOrder(){
+
+        System.out.println("Before each");
         order = new Order();
     }
 
     @AfterEach
     void cleanUp()
     {
+        System.out.println("After Each");
         order.cancel();
     }
 

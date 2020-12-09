@@ -1,6 +1,7 @@
 package pl.chojnacki.grzegorz.testing;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -110,6 +111,18 @@ class MealTest {
     {
         assertThat(name,notNullValue());
         assertThat(name,endsWith("cake"));
+    }
+
+    @ExtendWith(IAExceptionIgnoreExtension.class)
+    @ParameterizedTest
+    @ValueSource(ints = {1,3,6,9})
+    void mealPricesShouldBeLowerThan10(int price)
+    {
+        if(price > 5)
+        {
+            throw new IllegalArgumentException();
+        }
+        assertThat(price,lessThan(20));
     }
 
     private static Stream<String> createCakeNames()
