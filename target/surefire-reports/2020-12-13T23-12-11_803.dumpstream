@@ -1,0 +1,24 @@
+# Created at 2020-12-13T23:12:11.805
+gru 13, 2020 11:12:11 PM org.junit.jupiter.engine.discovery.MethodSelectorResolver resolve
+
+# Created at 2020-12-13T23:12:11.806
+WARNING: Possible configuration error: method [void pl.chojnacki.grzegorz.testing.AccountTest.newAccountWithNotNullAddressShouldBeActive()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2020-12-13T23:12:12.007
+gru 13, 2020 11:12:12 PM org.junit.jupiter.engine.discovery.MethodSelectorResolver resolve
+
+# Created at 2020-12-13T23:12:12.008
+WARNING: Possible configuration error: method [void pl.chojnacki.grzegorz.testing.AccountTest.newAccountWithNotNullAddressShouldBeActive()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2020-12-13T23:12:12.469
+gru 13, 2020 11:12:12 PM pl.chojnacki.grzegorz.testing.IAExceptionIgnoreExtension handleTestExecutionException
+
+# Created at 2020-12-13T23:12:12.470
+INFO: Just ignored IllegalArgumentException!
+
+# Created at 2020-12-13T23:12:12.473
+gru 13, 2020 11:12:12 PM pl.chojnacki.grzegorz.testing.IAExceptionIgnoreExtension handleTestExecutionException
+
+# Created at 2020-12-13T23:12:12.474
+INFO: Just ignored IllegalArgumentException!
+

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pl.chojnacki.grzegorz.testing.OrderBackupTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in pl.chojnacki.grzegorz.testing.OrderBackupTest

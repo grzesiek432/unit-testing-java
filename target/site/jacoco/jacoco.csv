@@ -1,0 +1,13 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+unit-testing-java,pl.chojnacki.grzegorz.testing,Account,3,48,1,3,1,19,1,9,0,8
+unit-testing-java,pl.chojnacki.grzegorz.testing,OrderBackup,0,47,0,2,0,13,0,6,0,5
+unit-testing-java,pl.chojnacki.grzegorz.testing,Meal,28,83,8,8,3,23,7,10,1,8
+unit-testing-java,pl.chojnacki.grzegorz.testing,OrderStatus,0,34,0,0,0,2,0,1,0,1
+unit-testing-java,pl.chojnacki.grzegorz.testing,BeforeAfterExtension,0,11,0,0,0,5,0,3,0,3
+unit-testing-java,pl.chojnacki.grzegorz.testing,IAExceptionIgnoreExtension,2,16,1,1,1,5,1,3,0,3
+unit-testing-java,pl.chojnacki.grzegorz.testing,Cart,0,56,0,2,0,15,0,6,0,5
+unit-testing-java,pl.chojnacki.grzegorz.testing,Order,0,50,0,2,0,14,0,9,0,8
+unit-testing-java,pl.chojnacki.grzegorz.testing,Address,0,9,0,0,0,4,0,1,0,1
+unit-testing-java,pl.chojnacki.grzegorz.testing.exercise,Unit,6,129,1,5,1,33,1,12,0,10
+unit-testing-java,pl.chojnacki.grzegorz.testing.exercise,Cargo,39,34,9,5,5,9,8,4,2,3
+unit-testing-java,pl.chojnacki.grzegorz.testing.exercise,Coordinates,19,73,6,12,3,16,7,8,1,5
