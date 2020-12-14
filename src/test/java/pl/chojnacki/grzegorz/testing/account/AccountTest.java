@@ -1,9 +1,9 @@
-package pl.chojnacki.grzegorz.testing;
+package pl.chojnacki.grzegorz.testing.account;
 
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
-import pl.chojnacki.grzegorz.testing.Account;
-import pl.chojnacki.grzegorz.testing.Address;
+import pl.chojnacki.grzegorz.testing.account.Account;
+import pl.chojnacki.grzegorz.testing.account.Address;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;

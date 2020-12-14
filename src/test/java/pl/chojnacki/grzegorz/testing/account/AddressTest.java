@@ -1,4 +1,4 @@
-package pl.chojnacki.grzegorz.testing;
+package pl.chojnacki.grzegorz.testing.account;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;

@@ -1,4 +1,6 @@
-package pl.chojnacki.grzegorz.testing;
+package pl.chojnacki.grzegorz.testing.order;
+
+import pl.chojnacki.grzegorz.testing.Meal;
 
 import java.util.ArrayList;
 import java.util.List;

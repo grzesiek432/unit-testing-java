@@ -1,4 +1,4 @@
-package pl.chojnacki.grzegorz.testing;
+package pl.chojnacki.grzegorz.testing.account;
 
 public class Address {
 

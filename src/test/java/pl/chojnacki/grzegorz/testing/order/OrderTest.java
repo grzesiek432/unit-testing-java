@@ -1,12 +1,14 @@
-package pl.chojnacki.grzegorz.testing;
+package pl.chojnacki.grzegorz.testing.order;
 
 
+import org.hamcrest.MatcherAssert;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import pl.chojnacki.grzegorz.testing.Meal;
-import pl.chojnacki.grzegorz.testing.Order;
+import pl.chojnacki.grzegorz.testing.extensions.BeforeAfterExtension;
+import pl.chojnacki.grzegorz.testing.order.Order;
 
 import java.util.Arrays;
 import java.util.List;
@@ -56,7 +58,7 @@ public class OrderTest {
         assertThat(order.getMeals(),empty());
         assertThat(order.getMeals().size(),equalTo(0));
         assertThat(order.getMeals(),hasSize(0));
-        assertThat(order.getMeals(),emptyCollectionOf(Meal.class));
+        MatcherAssert.assertThat(order.getMeals(),emptyCollectionOf(Meal.class));
 
     }
 

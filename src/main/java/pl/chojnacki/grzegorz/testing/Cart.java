@@ -1,5 +1,7 @@
 package pl.chojnacki.grzegorz.testing;
 
+import pl.chojnacki.grzegorz.testing.order.Order;
+
 import java.util.ArrayList;
 import java.util.List;
 
