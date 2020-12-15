@@ -1,7 +1,9 @@
-package pl.chojnacki.grzegorz.testing;
+package pl.chojnacki.grzegorz.testing.cart;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import pl.chojnacki.grzegorz.testing.Meal;
+import pl.chojnacki.grzegorz.testing.cart.Cart;
 import pl.chojnacki.grzegorz.testing.order.Order;
 
 import java.time.Duration;
